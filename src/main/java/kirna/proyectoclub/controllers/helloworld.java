@@ -11,7 +11,7 @@ public class helloworld {
 
     @GetMapping("/hello")
     public usuario hello() {
-        usuario usuarios = new usuario("Juan", "juan@example.com", 30);
+        usuario usuarios = new usuario("Juan", "juan@example.com", 31);
         return usuarios;
     }
 }
